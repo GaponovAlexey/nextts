@@ -4,7 +4,7 @@ import client from "../contentfull/index";
 
 
 export default function Test
-({ title, home }: { title: string, home: any}) {
+	({ title, home }: { title: 'da', home: any }) {
 
 	return (
 		<div>
@@ -37,6 +37,6 @@ export const getStaticProps: GetStaticProps = async () => {
 			home,
 		},
 		revalidate: 1600
-		
+
 	}
 }
