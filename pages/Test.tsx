@@ -35,6 +35,7 @@ export const getStaticProps: GetStaticProps = async () => {
 		props: {
 			title: 'Static title',
 			home,
+			
 		},
 		revalidate: 1600
 
