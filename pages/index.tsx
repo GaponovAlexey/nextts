@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { $CombinedState } from 'redux'
+import { useAppSelector } from './../src/hooks/redux'
 
 const Home: NextPage = () => {
   return (
     <div>
-da
+      Next is the best framework
     </div>
   )
 }
